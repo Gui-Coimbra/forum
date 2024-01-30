@@ -6,8 +6,8 @@ import br.com.alura.forum.dto.TopicoPorCategoriaDto
 import br.com.alura.forum.dto.TopicoView
 import br.com.alura.forum.model.StatusTopico
 import br.com.alura.forum.service.TopicoService
-import jakarta.transaction.Transactional
-import jakarta.validation.Valid
+import javax.transaction.Transactional
+import javax.validation.Valid
 import org.springframework.cache.annotation.CacheEvict
 import org.springframework.cache.annotation.Cacheable
 import org.springframework.data.domain.Page
@@ -82,6 +82,5 @@ class TopicoController(private val service: TopicoService) {
     ): Page<TopicoView>{
         return service.topicosNaoRespondidos(paginacao)
     }
-    // dfhdgfh
 }
 

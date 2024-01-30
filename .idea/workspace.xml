@@ -4,7 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8196b0b2-4228-4c95-974d-446a17187818" name="Changes" comment="feat: First commit" />
+    <list default="true" id="8196b0b2-4228-4c95-974d-446a17187818" name="Changes" comment="feat: First commit">
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/config/SecurityConfiguration.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/UserDetail.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V5__alter_table_uruario_add_password.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V6__insert_password_usuario.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/TopicoController.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/controller/TopicoController.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/dto/AtualizacaoTopicoForm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/dto/AtualizacaoTopicoForm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/dto/NovoTopicoForm.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/dto/NovoTopicoForm.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/exception/ExceptionHandler.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/exception/ExceptionHandler.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Curso.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Curso.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Resposta.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Resposta.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Topico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Topico.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Usuario.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Usuario.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/repository/UsuarioRepository.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/repository/UsuarioRepository.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/CursoService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/CursoService.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/UsuarioService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/UsuarioService.kt" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -14,8 +32,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Kotlin Data Class" />
-        <option value="Kotlin Class" />
         <option value="Kotlin Interface" />
+        <option value="Kotlin Class" />
       </list>
     </option>
   </component>
@@ -37,6 +55,9 @@
         <option name="mavenHome" value="Use Maven wrapper" />
       </MavenGeneralSettings>
     </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
   </component>
   <component name="ProblemsViewState">
     <option name="selectedTabId" value="CurrentFile" />
@@ -62,7 +83,7 @@
     "Spring Boot.ForumApplication.executor": "Run",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "/home/coimbra/Desktop/forum/pom.xml",
+    "last_opened_file_path": "/home/coimbra/Desktop/2210-kotlin-spring/pom.xml",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -140,7 +161,10 @@
       <workItem from="1706053840266" duration="2008000" />
       <workItem from="1706198350936" duration="6034000" />
       <workItem from="1706205387005" duration="493000" />
-      <workItem from="1706205962615" duration="384000" />
+      <workItem from="1706205962615" duration="435000" />
+      <workItem from="1706206407822" duration="2827000" />
+      <workItem from="1706295627069" duration="662000" />
+      <workItem from="1706572383201" duration="6678000" />
     </task>
     <task id="LOCAL-00001" summary="feat: First commit">
       <option name="closed" value="true" />

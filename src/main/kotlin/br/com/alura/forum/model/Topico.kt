@@ -1,6 +1,6 @@
 package br.com.alura.forum.model
 
-import jakarta.persistence.*
+import javax.persistence.*
 import java.time.LocalDateTime
 
 @Entity
