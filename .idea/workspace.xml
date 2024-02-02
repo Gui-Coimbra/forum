@@ -4,15 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8196b0b2-4228-4c95-974d-446a17187818" name="Changes" comment="feat: Definindo roles para autorização dos usuários">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/config/JWTUtil.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Credentials.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/security/JWTAuthenticationFilter.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/security/JWTLoginFilter.kt" afterDir="false" />
+    <list default="true" id="8196b0b2-4228-4c95-974d-446a17187818" name="Changes" comment="feat: Configurando profiles de dev e prod">
+      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/config/SecurityConfiguration.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/config/SecurityConfiguration.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -74,13 +68,13 @@
     &quot;Spring Boot.ForumApplication.executor&quot;: &quot;Run&quot;,
     &quot;git-widget-placeholder&quot;: &quot;dev&quot;,
     &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/coimbra/Desktop/2210-kotlin-spring/pom.xml&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/coimbra/Desktop/SPTech/leet-code&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -157,6 +151,9 @@
       <workItem from="1706295627069" duration="662000" />
       <workItem from="1706572383201" duration="13007000" />
       <workItem from="1706791065414" duration="8207000" />
+      <workItem from="1706816929013" duration="3921000" />
+      <workItem from="1706882488581" duration="1745000" />
+      <workItem from="1706885417623" duration="499000" />
     </task>
     <task id="LOCAL-00001" summary="feat: First commit">
       <option name="closed" value="true" />
@@ -198,7 +195,23 @@
       <option name="project" value="LOCAL" />
       <updated>1706657445200</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="feat: Configurando geração, validação e autenticação de token - jwt">
+      <option name="closed" value="true" />
+      <created>1706816989836</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1706816989836</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: Configurando profiles de dev e prod">
+      <option name="closed" value="true" />
+      <created>1706882840151</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1706882840151</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -231,6 +244,12 @@
     <MESSAGE value="feat: First commit" />
     <MESSAGE value="feat: Configurando spring security e alterando versão do spring" />
     <MESSAGE value="feat: Definindo roles para autorização dos usuários" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Definindo roles para autorização dos usuários" />
+    <MESSAGE value="feat: Configurando geração, validação e autenticação de token - jwt" />
+    <MESSAGE value="feat: Configurando profiles de dev e prod" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Configurando profiles de dev e prod" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
