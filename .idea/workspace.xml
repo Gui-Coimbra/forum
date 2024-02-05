@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8196b0b2-4228-4c95-974d-446a17187818" name="Changes" comment="feat: Configurando profiles de dev e prod">
-      <change afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+    <list default="true" id="8196b0b2-4228-4c95-974d-446a17187818" name="Changes" comment="feat: Configurando Dockerfile">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application-prod.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-prod.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -153,7 +154,8 @@
       <workItem from="1706791065414" duration="8207000" />
       <workItem from="1706816929013" duration="3921000" />
       <workItem from="1706882488581" duration="1745000" />
-      <workItem from="1706885417623" duration="499000" />
+      <workItem from="1706885417623" duration="1183000" />
+      <workItem from="1707090084459" duration="1800000" />
     </task>
     <task id="LOCAL-00001" summary="feat: First commit">
       <option name="closed" value="true" />
@@ -211,7 +213,15 @@
       <option name="project" value="LOCAL" />
       <updated>1706882840151</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="feat: Configurando Dockerfile">
+      <option name="closed" value="true" />
+      <created>1706885946184</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1706885946184</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -246,7 +256,8 @@
     <MESSAGE value="feat: Definindo roles para autorização dos usuários" />
     <MESSAGE value="feat: Configurando geração, validação e autenticação de token - jwt" />
     <MESSAGE value="feat: Configurando profiles de dev e prod" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Configurando profiles de dev e prod" />
+    <MESSAGE value="feat: Configurando Dockerfile" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Configurando Dockerfile" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
