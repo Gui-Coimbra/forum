@@ -4,16 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="8196b0b2-4228-4c95-974d-446a17187818" name="Changes" comment="feat: Migrando DB H2 para MySql">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V10__alter_table_add_data_alteracao.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/db/migration/V9__insert_topico.sql" afterDir="false" />
+    <list default="true" id="8196b0b2-4228-4c95-974d-446a17187818" name="Changes" comment="feat: Adicionando campo data_alteracao">
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/model/CursoTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/model/TopicoTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/model/TopicoViewTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/model/UsuarioTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/br/com/alura/forum/service/TopicoServiceTest.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/dto/TopicoView.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/dto/TopicoView.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/mapper/TopicoViewMapper.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/mapper/TopicoViewMapper.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Topico.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/model/Topico.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/TopicoService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/kotlin/br/com/alura/forum/service/TopicoService.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application-dev.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application-dev.yml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +25,7 @@
         <option value="Kotlin Data Class" />
         <option value="Kotlin Interface" />
         <option value="Kotlin Class" />
+        <option value="Kotlin Object" />
       </list>
     </option>
   </component>
@@ -64,6 +64,8 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;JUnit.TopicoServiceTest.deve listar topicos a partir do nome do curso.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TopicoServiceTest.executor&quot;: &quot;Debug&quot;,
     &quot;Maven.forum [clean].executor&quot;: &quot;Run&quot;,
     &quot;Maven.forum [package].executor&quot;: &quot;Run&quot;,
     &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
@@ -81,7 +83,7 @@
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
     &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;terminal&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.lookFeel&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -101,17 +103,51 @@
 }</component>
   <component name="RecentsManager">
     <key name="CreateKotlinClassDialog.RecentsKey">
-      <recent name="br.com.alura.forum.security" />
       <recent name="br.com.alura.forum.model" />
+      <recent name="br.com.alura.forum.security" />
       <recent name="br.com.alura.forum.dto" />
       <recent name="br.com.alura.forum.service" />
       <recent name="br.com.alura.forum.mapper" />
+    </key>
+    <key name="MoveKotlinTopLevelDeclarationsDialog.RECENTS_KEY">
+      <recent name="br.com.alura.forum.model" />
     </key>
     <key name="CopyKotlinDeclarationDialog.RECENTS_KEY">
       <recent name="br.com.alura.forum.exception" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="JUnit.TopicoServiceTest">
+    <configuration name="TopicoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="forum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.forum.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.forum.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.service.TopicoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TopicoServiceTest.deve listar topicos a partir do nome do curso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="forum" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.forum.service.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="br.com.alura.forum.service" />
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.forum.service.TopicoServiceTest" />
+      <option name="METHOD_NAME" value="deve listar topicos a partir do nome do curso" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ForumApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" nameIsGenerated="true">
       <option name="FRAME_DEACTIVATION_UPDATE_POLICY" value="UpdateClassesAndResources" />
       <module name="forum" />
@@ -120,6 +156,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.TopicoServiceTest" />
+        <item itemvalue="JUnit.TopicoServiceTest.deve listar topicos a partir do nome do curso" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SharedIndexes">
     <attachedChunks>
@@ -161,7 +203,13 @@
       <workItem from="1706816929013" duration="3921000" />
       <workItem from="1706882488581" duration="1745000" />
       <workItem from="1706885417623" duration="1183000" />
-      <workItem from="1707090084459" duration="6593000" />
+      <workItem from="1707090084459" duration="9864000" />
+      <workItem from="1707342782914" duration="42000" />
+      <workItem from="1707838838706" duration="4989000" />
+      <workItem from="1707939282510" duration="599000" />
+      <workItem from="1708303124173" duration="103000" />
+      <workItem from="1708980970655" duration="1325000" />
+      <workItem from="1709079265785" duration="15000" />
     </task>
     <task id="LOCAL-00001" summary="feat: First commit">
       <option name="closed" value="true" />
@@ -251,7 +299,15 @@
       <option name="project" value="LOCAL" />
       <updated>1707145124068</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="feat: Adicionando campo data_alteracao">
+      <option name="closed" value="true" />
+      <created>1707145151771</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1707145151771</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -290,7 +346,8 @@
     <MESSAGE value="feat: Alterando Dockerfile para deploy no Heroku" />
     <MESSAGE value="feat: A" />
     <MESSAGE value="feat: Migrando DB H2 para MySql" />
-    <option name="LAST_COMMIT_MESSAGE" value="feat: Migrando DB H2 para MySql" />
+    <MESSAGE value="feat: Adicionando campo data_alteracao" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: Adicionando campo data_alteracao" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
